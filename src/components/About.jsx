@@ -13,7 +13,7 @@ export default function About() {
               Hi! I'm Lien, a <RoughNotation type="highlight" color="#ffc8dd">fullstack developer</RoughNotation> based in Montreal.
           </h1>
           <h2 className="title-font sm:text-2xl text-xl mb-4 font-medium text-black">
-           I'm passionate about telling<RoughNotation type="box" color="#a2d2ff"> stories through code and design and love building thoughtful, user-friendly minimalistic applications.</RoughNotation>
+           <RoughNotation type="box" color="#a2d2ff"> I'm passionate about telling stories through code and design and love building thoughtful, user-friendly minimalistic applications.</RoughNotation>
           </h2>
             <p className="mb-8 leading-relaxed">
             I have an <RoughNotation type="highlight" color="#DAF7BE"> acuity for problem solving</RoughNotation> and as a lifelong learner - I am eager to continuously grow my skills in order to keep up to date with the fast-changing trends within the industry and further my skillset 🚀 👩🏻‍💻
