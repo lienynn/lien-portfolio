@@ -11,16 +11,16 @@ export default function Navbar() {
         </div>
         <div>
           <nav className="flex flex-wrap items-center text-base">
-            <a href="#about" className="ml-5 mr-5 hover:text-indigo-200">
+            <a href="#about" className="ml-5 mr-5 hover:text-violet-400">
               About Me
             </a>
-            <a href="#projects" className="mr-5 hover:text-indigo-200">
+            <a href="#projects" className="mr-5 hover:text-violet-400">
               Projects
             </a>
-            <a href="#skills" className="mr-5 hover:text-indigo-200">
+            <a href="#skills" className="mr-5 hover:text-violet-400">
               Technology
             </a>
-            <a href="#contact" className="mr-5 hover:text-indigo-200">
+            <a href="#contact" className="mr-5 hover:text-violet-400">
               Contact
             </a>
           </nav>

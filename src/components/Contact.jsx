@@ -28,6 +28,7 @@ export default function Contact() {
       <h2 className="flex justify-center text-black sm:text-4xl text-3xl mb-1 font-medium title-font">
           FANCY A CHAT?
       </h2>
+      <p className="flex justify-center text-black text-lg mb-1 font-medium title-font">Send me a messasge!</p>
       <div className="relative mb-4">
             <label htmlFor="name" className="leading-7 text-sm text-black">
               Name
@@ -77,7 +78,7 @@ export default function Contact() {
           </div>
           <button
             type="submit"
-            className="text-white bg-indigo-300 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 rounded text-lg">
+            className="text-white bg-violet-300 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 rounded text-lg">
             Submit
           </button>
         </form>
