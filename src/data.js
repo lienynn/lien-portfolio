@@ -1,9 +1,9 @@
 export const projects = [
     {
       title: "Job Board Page",
-      stack: "React,Javascript, Netlify",
+      stack: "React, Javascript, CSS, Netlify",
       description:
-        "This is a simple mockup of a job board page built using React. It has a filtering function that filters jobs based on a particular tech stack or position.",
+        "Mockup of a job board page built using React with function that filters jobs based on a particular tech stack or position.",
       image: "./jobboard.gif",
       link: "https://jobboardexample.netlify.app/",
     },
@@ -12,7 +12,7 @@ export const projects = [
       title: "BrunchTime",
       stack: "RoR, Javascript, Stimulus, Bootstrap, Mapbox API, PostgreSQL, Heroku",
       description:
-        "BrunchTime mobile app helps you find the best brunch place with the shortest wait-time",
+        "Mobile app to help you find the best brunch place with the shortest wait-time",
       image: "./brunchtime.gif",
       link: "https://www.brunchtime.live",
     },
@@ -28,7 +28,7 @@ export const projects = [
   
     {
       title: "Basic Digital Counter",
-      stack: "React, Javascript, Netlify",
+      stack: "React, Javascript, CSS, Netlify",
       description:
         "Basic React Counter using Props and useState",
       image: "./counter.gif",
