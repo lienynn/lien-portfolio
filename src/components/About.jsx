@@ -10,16 +10,16 @@ export default function About() {
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
         <h1 className="title-font sm:text-4xl text-2xl mb-4 font-medium text-black">
             Hi! I'm Lien, a 
-            <RoughNotation type="highlight" show={true} color="#F3b8d7" animated="true"> fullstack developer </RoughNotation> 
+            <RoughNotation type="highlight" show={true} color="#F3b8d7"> fullstack developer </RoughNotation> 
             based in Montreal.
         </h1>
           <h2 className="title-font sm:text-2xl text-2xl mb-4 font-medium text-black">
             I'm passionate about telling 
-            <RoughNotation type="highlight" show={true} color="#B8dbf3" animated="true">stories through code and design</RoughNotation>
+            <RoughNotation type="highlight" show={true} color="#B8dbf3">stories through code and design</RoughNotation>
           </h2>
           <h2 className="title-font sm:text-2xl text-2xl mb-4 font-medium text-black"> and love building thoughtful, user-friendly minimalistic applications.</h2>
           <p className="mb-8 leading-relaxed">
-          I have an <RoughNotation type="highlight" show={true} color="#DAF7BE" animated="true"> acuity for problem solving</RoughNotation> and as a lifelong learner - I am eager to continuously grow my skills in order to keep up to date with the fast-changing trends within the industry and further my skillset 🚀 👩🏻‍💻
+          I have an <RoughNotation type="highlight" show={true} color="#DAF7BE"> acuity for problem solving</RoughNotation> and as a lifelong learner - I am eager to continuously grow my skills in order to keep up to date with the fast-changing trends within the industry and further my skillset 🚀 👩🏻‍💻
           </p>
           <div className="flex justify-center">
             <a

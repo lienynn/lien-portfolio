@@ -14,7 +14,7 @@ export default function Projects() {
           </p>
           
         </div>
-        <div className="flex flex-wrap -m-4">
+        <div className="flex flex-wrap -m-4 ">
           {projects.map((project) => (
             <a
               href={project.link}
@@ -23,10 +23,10 @@ export default function Projects() {
               <div className="flex relative">
                 <img
                   alt="gallery"
-                  className="absolute inset-0 w-full h-full object-cover object-center"
+                  className="absolute inset-0 w-full h-full object-cover object-center rounded-lg"
                   src={project.image}
                 />
-                <div className="grid-cols-2 h-15 w-15 px-8 py-10 relative z-10 w-full border-4 border-indigo-200 bg-indigo-200 opacity-0 hover:opacity-100">
+                <div className="grid-cols-2 h-15 w-15 px-8 py-10 relative z-10 w-full border-4 rounded-lg border-indigo-200 bg-indigo-200 opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-white mb-1">
                     {project.stack}
                   </h2>
