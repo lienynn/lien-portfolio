@@ -10,7 +10,7 @@ export default function Skills() {
             Skills &amp; Technologies
           </h1>
           <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-           My technology stack is continuously growing -- <br/>
+           My technology stack is continuously growing - <br/>
            I am mainly working with Javascript & React at the moment 👩🏻‍💻
           </p>
         </div>

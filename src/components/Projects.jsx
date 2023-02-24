@@ -10,7 +10,7 @@ export default function Projects() {
             Projects
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            An assortment of some projects I've worked on - big and small 🌱
+            An assortment of some projects I've worked on - BIG & small 🌱
           </p>
           
         </div>
