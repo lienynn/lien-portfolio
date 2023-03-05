@@ -7,7 +7,7 @@ export default function About() {
   return (
     <section id="about">
       <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
-        <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+        <div className="lg:flex-grow md:w-2/3 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
         <RoughNotationGroup show={true} >
           <h1 className="title-font sm:text-4xl text-2xl mb-4 font-medium text-black">
               Hi! I'm Lien, a <RoughNotation type="highlight" color="#ffc8dd">fullstack developer</RoughNotation> based in Montreal.
@@ -32,7 +32,7 @@ export default function About() {
             </a>
           </div>
         </div>
-        <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+        <div className="lg:max-w-full lg:w-1/3 md:w-1/3">
           <img
             className="object-center h-21 w-21 rounded"
             alt="profile photo"
