@@ -9,15 +9,6 @@ export const projects = [
     },
   
     {
-      title: "BrunchTime",
-      stack: "RoR, Javascript, Stimulus, Bootstrap, Mapbox API, PostgreSQL, Heroku",
-      description:
-        "Mobile app to help you find the best brunch place with the shortest wait-time",
-      image: "./brunchtime.gif",
-      link: "https://www.brunchtime.live",
-    },
-  
-    {
       title: "FAQ Accordian",
       stack: "React, Javascript, Netlify",
       description:
@@ -33,18 +24,37 @@ export const projects = [
         "Basic React Counter using Props and useState",
       image: "./counter.gif",
       link: "https://yellowpinkreactcounter.netlify.app/",
+    },
+
+    {
+      title: "BrunchTime",
+      stack: "RoR, Javascript, Stimulus, Bootstrap, Mapbox API, PostgreSQL, Heroku",
+      description:
+        "Mobile app to help you find the best brunch place with the shortest wait-time",
+      image: "./brunchtime.gif",
+      link: "https://www.brunchtime.live",
     }
   ];
   
   export const skills = [
-    "JavaScript",
-    "React",
-    "Ruby",
-    "Rails",
-    "mySQL",
-    "PostgreSQL",
-    "Tailwind",
-    "Bootstrap",
+    {
+      title: "FrontEnd",
+      stack: 
+      "JavaScript, CSS, HTML, React,Tailwind, Bootstrap, Figma",
+  
+    },
+
+    {
+      title: "BackEnd",
+      stack: "Ruby, Rails, mySQL,PostgreSQL",
+
+    },
+
+    {
+      title: "Other Tools",
+      stack:"Git, Github, Bitbucket, Vercel, Netlify, Heroku, Mapbox, npm, yarn, vscode",
+
+    },
   ];
   
   

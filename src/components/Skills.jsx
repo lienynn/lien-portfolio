@@ -10,17 +10,20 @@ export default function Skills() {
             Skills &amp; Technologies
           </h1>
           <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-           My technology stack is continuously growing - <br/>
-           I am mainly working with Javascript & React at the moment 👩🏻‍💻
+            My technology stack is continuously growing - <br />
+            I am mainly working with Javascript &amp; React at the moment 👩🏻‍💻
           </p>
         </div>
-        <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
+        <div className="grid gap-5 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">
           {skills.map((skill) => (
-            <div key={skill} className="p-2 sm:w-1/2 w-full">
-              <div className="bg-violet-300/95 rounded flex p-4 h-full items-center">
-                <span className="title-font font-medium text-white">
-                  {skill}
-                </span>
+            <div key={skill.id} className="flex flex-col items-center">
+              <div className="px-8 py-10 rounded-lg bg-violet-300/95 mb-5 w-full max-w-md">
+                <h1 className="title-font text-xl font-medium text-white mb-3 text-center">
+                  {skill.title}
+                </h1>
+                <h2 className="tracking-widest text-md title-font font-medium text-white mb-1 text-center">
+                  {skill.stack}
+                </h2>
               </div>
             </div>
           ))}
