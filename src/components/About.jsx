@@ -8,17 +8,27 @@ export default function About() {
     <section id="about">
       <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
         <div className="lg:flex-grow md:w-3/5 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-        <RoughNotationGroup show={true} >
-          <h1 className="title-font sm:text-4xl text-2xl mb-4 font-medium text-black">
-              Hi! I'm Lien, a <RoughNotation type="highlight" color="#ffc8dd">fullstack developer</RoughNotation> based in Montreal.
-          </h1>
-          <h2 className="title-font sm:text-2xl text-xl mb-4 font-medium text-black">
-           <RoughNotation type="box" color="#a2d2ff"> I'm passionate about telling stories through code and design and love building thoughtful, user-friendly, minimalistic applications.</RoughNotation>
-          </h2>
+          <RoughNotationGroup show={true}>
+            <h1 className="title-font sm:text-3xl text-xl mb-4 font-medium text-black">
+              Hi! I'm Lien, a{' '}
+              <RoughNotation type="highlight" color="#ffc8dd">
+                fullstack developer
+              </RoughNotation>{' '}
+              based in Montreal.
+            </h1>
+            <h2 className="title-font sm:text-2xl text-xl mb-4 font-medium text-black">
+              <RoughNotation type="box" color="#a2d2ff">
+                I'm passionate about telling stories through code and design and love building thoughtful, user-friendly, minimalistic applications.
+              </RoughNotation>
+            </h2>
             <p className="mb-8 leading-relaxed">
-            I have an <RoughNotation type="highlight" color="#DAF7BE"> acuity for problem solving</RoughNotation> and as a lifelong learner - I am eager to continuously grow my skills in order to keep up to date with the fast-changing trends within the industry and further my skillset 🚀 👩🏻‍💻
+              I have an{' '}
+              <RoughNotation type="highlight" color="#DAF7BE">
+                acuity for problem solving
+              </RoughNotation>{' '}
+              and as a lifelong learner - I am eager to continuously grow my skills in order to keep up to date with the fast-changing trends within the industry and further my skillset 🚀 👩🏻‍💻
             </p>
-        </RoughNotationGroup>
+          </RoughNotationGroup>
           <div className="flex justify-center">
             <a
               href="https://ca.linkedin.com/in/liennyn"
