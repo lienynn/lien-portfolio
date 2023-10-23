@@ -17,13 +17,13 @@ export default function Projects() {
           {projects.map((project) => (
             <div className="sm:w-1/2 w-full p-4" key={project.image}>
               <a href={project.link}>
-                <div className="relative">
+                <div className="relative overflow-hidden transition-transform transform hover:scale-105">
                   <img
                     alt="gallery"
                     className="absolute inset-0 w-full h-full object-cover object-center rounded-lg"
                     src={project.image}
                   />
-                  <div className="grid-cols-2 h-15 w-15 px-8 py-10 relative z-10 w-full rounded-lg bg-violet-300/95 opacity-0 hover:opacity-100">
+                  <div className="grid-cols-2 h-15 w-15 px-8 py-10 relative z-10 w-full rounded-lg bg-violet-300/95 opacity-0 hover:opacity-100 transition-opacity">
                     <h2 className="tracking-widest text-sm title-font font-medium text-white mb-1">
                       {project.stack}
                     </h2>

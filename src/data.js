@@ -46,13 +46,13 @@ export const projects = [
 
     {
       title: "BackEnd",
-      stack: "Ruby, Rails, mySQL,PostgreSQL",
+      stack: "Java, Springboot, JDBC, mySQL,PostgreSQL",
 
     },
 
     {
       title: "Other Tools",
-      stack:"Git, Github, Bitbucket, Vercel, Netlify, Heroku, Mapbox, npm, yarn, vscode",
+      stack:"Git, Github, Bitbucket, IntelliJ, VScode, Vercel, Netlify, npm, yarn, vscode",
 
     },
   ];
